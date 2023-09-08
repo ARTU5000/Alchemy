@@ -1,0 +1,108 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+using TMPro;
+
+[System.Serializable]
+public class SavePoints 
+{
+    public float TTpoints;
+    public float PPsec;
+    public float ClickP;
+    public int year;
+    public int month;
+    public int day;
+    public int hour;
+    public int minute;
+    public int second;
+    public int PDH;
+    public int AJO;
+    public int HGR;
+    public int TRG; 
+    public int HGV; 
+    public int LVD; 
+    public int SDF; 
+    public int HGA; 
+    public int SDE; 
+    public int HGM; 
+    public int SDV; 
+    public int RDT; 
+    public int PDV; 
+    public int RDN; 
+    public int EDD; 
+    public int RNC;
+    public int GRA;
+    public int COM;
+    public int GUA;
+    public int MAG;
+    public int ESQ;
+    public int MD;
+    public int DVK;
+    public int PBL;
+    public int PRJ;
+    public int PAZ;
+    public int PVE;
+    public int PAM;
+    public int PRS;
+    public int PMA;
+    public int PNA;
+    public int PMO;
+    public int PVA;
+    public int TUN;
+    public int tunFn;
+    public int tunIn;
+    public int LIB;
+    public int PER;
+
+    public SavePoints (float TTpoints, float PPsec, float ClickP, int year, int month, int day, int hour, int minute, int second, int PDH, int AJO, int HGR, int TRG, int HGV, int LVD, int SDF, int HGA, int SDE, int HGM, int SDV, int RDT, int PDV, int RDN, int EDD, int RNC, int GRA, int COM, int GUA, int MAG, int ESQ, int MD, int DVK, int PBL, int PRJ, int PAZ, int PVE, int PAM, int PRS, int PMA, int PNA, int PMO, int PVA, int TUN, int tunFn, int tunIn, int LIB, int PER)
+    {
+        this.TTpoints = TTpoints;
+        this.PPsec = PPsec;
+        this.ClickP = ClickP;
+        this.year = year;
+        this.month = month;
+        this.day = day;
+        this.hour = hour;
+        this.minute = minute;
+        this.second = second;
+        this.PDH = PDH;
+        this.AJO = AJO;
+        this.HGR = HGR;
+        this.TRG = TRG; 
+        this.HGV = HGV; 
+        this.LVD = LVD; 
+        this.SDF = SDF; 
+        this.HGA = HGA; 
+        this.SDE = SDE; 
+        this.HGM = HGM; 
+        this.SDV = SDV; 
+        this.RDT = RDT; 
+        this.PDV = PDV; 
+        this.RDN = RDN; 
+        this.EDD = EDD; 
+        this.RNC = RNC;
+        this.GRA = GRA;
+        this.COM = COM;
+        this.GUA = GUA;
+        this.MAG = MAG;
+        this.ESQ = ESQ;
+        this.MD = MD;
+        this.DVK = DVK;
+        this.PBL = PBL;
+        this.PRJ = PRJ;
+        this.PAZ = PAZ;
+        this.PVE = PVE;
+        this.PAM = PAM;
+        this.PRS = PRS;
+        this.PMA = PMA;
+        this.PNA = PNA;
+        this.PMO = PMO;
+        this.PVA = PVA;
+        this.TUN = TUN;
+        this.tunFn = tunFn;
+        this.tunIn = tunIn;
+        this.LIB = LIB;
+        this.PER = PER;
+    }
+}
